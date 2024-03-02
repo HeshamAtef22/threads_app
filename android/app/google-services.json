@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1071379775139",
+    "project_id": "threads-app-c7d51",
+    "storage_bucket": "threads-app-c7d51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071379775139:android:29d1c51465a7bf3e058916",
+        "android_client_info": {
+          "package_name": "com.threads_app.threads_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071379775139-8hl93g0k4gtfmg04fhqoibd8dmllntts.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.threads_app.threads_app",
+            "certificate_hash": "c0fb859516bc03b5722ea841887914158b18239f"
+          }
+        },
+        {
+          "client_id": "1071379775139-su299v0nerji3jqbh82d99jflqe2066g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvtLlueqnEyba2Xjdq-R8L8EzZRP_R8JA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071379775139-su299v0nerji3jqbh82d99jflqe2066g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1071379775139-jpl33nojtadjq598v58bvvo80sgtnss8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.threadsapp.threadsApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
