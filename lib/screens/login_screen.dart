@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:threads_app/screens/home_screen.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -18,8 +19,12 @@ class LoginScreen extends StatelessWidget {
               //minimumSize: MaterialStateProperty.all(Size(size.width * .80, size.height * .06)),
               fixedSize: MaterialStateProperty.all(Size(size.width * .90, size.height * .08)),
             ),
-              onPressed: (){
-                signInWithGoogle();
+              onPressed: ()async{
+              final UserCredential userCredential = await signInWithGoogle();
+              if(userCredential.user != null){
+                Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Home_screen(),));
+              }
+
               }, child: ListTile(
             title: Text("Login with Google"),
             textColor: Colors.white,
